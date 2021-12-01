@@ -1,5 +1,5 @@
 import { GET_DATA_QUERY, URL_API } from "../constants";
-import { getLaunches } from "./redux/launchesSlice";
+import { getLaunches } from "../redux/launchesSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useState } from "react";

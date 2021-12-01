@@ -1,4 +1,4 @@
-import { GET_DATA_QUERY, URL_API } from "../../constants";
+import { GET_DATA_QUERY, URL_API } from "../constants";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
